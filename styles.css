@@ -37,11 +37,13 @@ nav {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .nav-links li {
-    display: inline-block;
-    margin-right: 30px;
+    margin: 0;
 }
 
 .nav-links a {
@@ -64,6 +66,7 @@ main {
 .sink-info {
     display: flex;
     justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px; 
     margin-bottom: 40px;
 }
