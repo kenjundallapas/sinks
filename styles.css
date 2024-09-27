@@ -1,4 +1,4 @@
-/* General Styles */
+/*Modern Look*/
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,28 +6,29 @@ body {
     box-sizing: border-box;
     line-height: 1.6;
     color: #333;
+    background-color: #DFD0B8;
 }
 
 header {
-    background-color: #6BBE45; /* Softer green color */
-    color: white;
+    background-color: #153448; 
+    color: #DFD0B8;
     text-align: center;
-    padding: 40px 20px; /* Added padding for a spacious look */
-    border-bottom: 5px solid #4CAF50; /* Bottom border for distinction */
-}
+    padding: 40px 20px; 
+    border-bottom: 5px solid #153448; 
+} 
 
 h1 {
     margin: 0;
-    font-size: 2.8em; /* Slightly larger font size */
+    font-size: 2.8em; 
 }
 
 p {
     margin: 10px 0;
-    font-size: 1.2em; /* Increased font size for better readability */
+    font-size: 1.2em; 
 }
 
 nav {
-    background-color: #444; /* Darker shade for contrast */
+    background-color: #444; 
     text-align: center;
     padding: 15px 0;
 }
@@ -40,18 +41,18 @@ nav {
 
 .nav-links li {
     display: inline-block;
-    margin-right: 30px; /* Increased margin for spacing */
+    margin-right: 30px;
 }
 
 .nav-links a {
-    color: white;
+    color: #DFD0B8;
     text-decoration: none;
-    font-size: 1.2em; /* Increased font size */
-    transition: color 0.3s; /* Smooth transition for hover effect */
+    font-size: 1.2em; 
+    transition: color 0.3s; 
 }
 
 .nav-links a:hover {
-    color: #6BBE45; /* Matching hover color */
+    color: #153448; 
 }
 
 main {
@@ -63,64 +64,66 @@ main {
 .sink-info {
     display: flex;
     justify-content: space-between;
-    gap: 30px; /* Increased gap for better separation */
+    gap: 30px; 
     margin-bottom: 40px;
 }
 
 .sink-info article {
     flex: 1;
-    background-color: #f9f9f9; /* Lighter background for articles */
-    padding: 25px; /* More padding for spaciousness */
+    background-color: #3C5B6F; 
+    color: #DFD0B8;
+    padding: 25px; 
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .sink-info img {
     border-radius: 8px;
     margin-bottom: 15px;
-    width: 100%; /* Full width for responsiveness */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 
 .sink-features {
     text-align: center;
     padding: 30px;
-    background-color: #f9f9f9; /* Lighter background */
+    background-color: #3C5B6F; 
+    color: #DFD0B8;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .sink-features img {
     border-radius: 8px;
     margin-bottom: 15px;
     width: 100%;
-    max-width: 600px; /* Limit max width */
+    max-width: 600px; 
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #444; /* Darker footer color */
-    color: white;
+    background-color: #153448; 
+    color: #DFD0B8;
     margin-top: 20px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .sink-info {
-        flex-direction: column; /* Stack articles on smaller screens */
+        flex-direction: column; 
     }
 
     .nav-links li {
-        display: block; /* Stack navigation links */
-        margin: 10px 0; /* Spacing between links */
+        display: block; 
+        margin: 10px 0; 
     }
 
     header h1 {
-        font-size: 2.5em; /* Adjust header size */
+        font-size: 2.5em; 
     }
 
     p {
-        font-size: 1em; /* Adjust paragraph size */
+        font-size: 1em; 
     }
 }
